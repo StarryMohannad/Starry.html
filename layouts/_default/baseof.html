@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html style="background: url('{{ .Site.BaseURL }}imgs/background.jpg')" lang="en">
+
+  <head>
+
+    {{ block "head" . }}
+
+    {{ end }}
+
+    <meta charset="UTF-8">
+    <meta name="author" content="{{ .Site.Params.author  }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{ .Site.BaseURL }}"/>
+    {{ hugo.Generator }}
+
+    <link rel="stylesheet" href="/styles/global.css" type="text/css" media="screen" />
+
+  </head>
+
+  <body>
+
+    <div>
+
+      {{ partial "header.html" . }}
+
+      <div class="middle-sector">
+        <main>
+          {{ block "main" . }}
+
+          {{ end }}
+        </main>
+        {{ partial "linktree.html" . }}
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

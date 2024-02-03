@@ -1,0 +1,17 @@
+baseURL = 'https://starrymohannad.neocities.org/'
+languageCode = 'en-us'
+title = 'MohannadSpace :DD'
+copyright = '2024 StarryMohannad© Org.'
+enableRobotsTXT = true
+
+[params]
+    author      = "StarryMohannad"
+    description = "this is the personal site for StarryMohannad :DD"
+    keywords    = "art, pixelart, tech, linux, foss, indieweb, indie, games, videogames"
+    [params.contact]
+        email   = 'mohannadgamer047@gmail.com'
+    [params.social]
+        github  = "https://github.com/StarryMohannad"
+        steam   = "https://steamcommunity.com/id/StarryMohannad"
+        twitter = "https://twitter.com/StarryMohannad2"
+        youtube = "https://youtube.com/@StarryMohannad"

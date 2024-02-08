@@ -1,0 +1,15 @@
+{{ define "head" }}
+    <title>{{ .Page.Title }}</title>
+    <link rel="stylesheet" href="/styles/blog.css" type="text/css" media="screen" />
+{{ end }}
+
+{{ define "main" }}
+    <div class="post-details">
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Description }}<br /> {{ .Date }}</p>
+    </div>
+    <hr />
+    <article>
+      {{ .Page.Content }}
+    </article>
+{{ end }}

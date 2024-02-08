@@ -7,5 +7,30 @@
 {{ define "main" }}
     <h1>Hello :DD</h1>
     <p>My name is StarryMohannad and welcome to my Website :DD</p>
-    <center><p><b>=== UNDERCONSTRUCTION ===</b></p></center>
+    <hr />
+    <p><b>Random Trivia About me :P</b></p>
+    <ul>
+      <li>15 Year old boy</li>
+      <li>From Syria lives in Jordan</li>
+      <li>Muslim</li>
+      <li>Programmer (JS and C++) and sometimes a pixel artist</li>
+      <li>I use Arch Btw</li>
+      <li>Likes FOSS</li>
+      <li>Favorite Games: Portal 2, Pizza Tower, Half-Life, Terraria, Oneshot and Much More</li>
+    </ul>
+    <hr />
+    <p><b>DNI List</b></p>
+    <ul>
+      <li>NSFW</li>
+      <li>Pedos</li>
+      <li>Zionists</li>
+      <li>Islamophobs</li>
+    </ul>
+    <hr />
+    <p><b>Recent Blog Posts :DD</b></p>
+    <ul>
+      {{ range ( where .Site.RegularPages "Type" "blog" | first 8 ) }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
 {{ end }}

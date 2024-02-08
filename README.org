@@ -1,0 +1,33 @@
+#+title: MohannadSpace :DD
+#+author: StarryMohannad :DD
+#+email: 73769579+StarryMohannad@users.noreply.github.com
+#+description: My Personal Website
+
+this is my website :DD I will be yapping in blogs and reviewing games so yeah
+
+** TODO Things to do [0/1]
++ [-] Finish the Website
+  + [X] Global
+    + [X] Hypnospace Font
+    + [X] Pixelized Background Image
+    + [X] ASCII Logo
+  + [-] Homepage
+    + [X] Complete "About me" text
+    + [X] Add Place for Blog Posts
+    + [ ] Create Footer
+      + [ ] Button Row
+      + [ ] Copyright Information and Email link
+  + [-] Blog
+    + [X] Create Blog Page
+    + [X] Create Blog Post Template
+    + [ ] RSS Feed
+  + [ ] Projects
+    + [ ] Create Projects Page
+  + [ ] Contact
+    + [ ] Create Contact Page
+  + [ ] Webring
+    + [ ] Join Hotline Webring
+    + [ ] Create a Webring Page
+    + [ ] Add a Section for Cool Sites
+  + [ ] Upload Website to Neocities
+  + [ ] Fix Spagiti Code

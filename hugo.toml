@@ -15,3 +15,6 @@ enableRobotsTXT = true
         steam   = "https://steamcommunity.com/id/StarryMohannad"
         twitter = "https://twitter.com/StarryMohannad2"
         youtube = "https://youtube.com/@StarryMohannad"
+
+[security]
+  enableInlineShortcodes = true

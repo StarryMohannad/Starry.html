@@ -1,0 +1,19 @@
+main {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+div.post-details p {
+    color: var(--color8) !important;
+    font-size: .9rem;
+
+    margin: 0;
+    margin-top: .5rem;
+    margin-bottom: .25rem;
+}
+
+hr {
+    margin: 0 !important;
+    margin-bottom: .25rem !important;
+    margin-top: .25rem !important;
+}

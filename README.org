@@ -5,7 +5,7 @@
 
 this is my website :DD I will be yapping in blogs and reviewing games so yeah
 
-** TODO Things to do [0/1]
+** TODO Things to do
 + [-] Finish the Website
   + [X] Global
     + [X] Hypnospace Font

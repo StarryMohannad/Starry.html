@@ -1,5 +1,7 @@
 {{ define "head" }}
     <title>{{ .Page.Title }} - {{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Page.Description }}" />
+    <meta name="keywords" content="{{ delimit .Keywords ", " ", and " }}" />
 {{ end }}
 
 {{ define "main" }}

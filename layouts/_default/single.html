@@ -1,6 +1,8 @@
 {{ define "head" }}
     <title>{{ .Page.Title }}</title>
     <link rel="stylesheet" href="/styles/blog.css" type="text/css" media="screen" />
+    <meta name="description" content="{{ .Page.Description }}" />
+    <meta name="keywords" content="{{ delimit .Keywords ", " ", and " }}" />
 {{ end }}
 
 {{ define "main" }}

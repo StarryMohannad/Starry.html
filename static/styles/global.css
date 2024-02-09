@@ -64,7 +64,7 @@ html {
 }
 
 body {
-    background: rgba(17, 15, 20, 0.55);
+    background: rgba(17, 15, 20, 0.65);
     color: var(--foreground);
 
     width: 100vw;
@@ -153,4 +153,12 @@ main {
     padding: .5rem;
     margin-left: .25rem;
     background: #252428;
+}
+
+footer {
+    display: inline-grid;
+    margin-top: .75rem;
+
+    text-align: center;
+    color: var(--color14);
 }

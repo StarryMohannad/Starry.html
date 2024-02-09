@@ -11,23 +11,17 @@ this is my website :DD I will be yapping in blogs and reviewing games so yeah
     + [X] Hypnospace Font
     + [X] Pixelized Background Image
     + [X] ASCII Logo
-  + [-] Homepage
+  + [X] Homepage
     + [X] Complete "About me" text
     + [X] Add Place for Blog Posts
-    + [ ] Create Footer
-      + [ ] Button Row
-      + [ ] Copyright Information and Email link
+    + [X] Create Footer
+      + [X] Button Row
+      + [X] Copyright Information and Email link
   + [-] Blog
     + [X] Create Blog Page
     + [X] Create Blog Post Template
     + [ ] RSS Feed
-  + [ ] Projects
-    + [ ] Create Projects Page
-  + [ ] Contact
-    + [ ] Create Contact Page
-  + [ ] Webring
-    + [ ] Join Hotline Webring
-    + [ ] Create a Webring Page
-    + [ ] Add a Section for Cool Sites
+  + [X] Projects
+    + [X] Create Projects Page
   + [ ] Upload Website to Neocities
   + [ ] Fix Spagiti Code

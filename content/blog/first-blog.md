@@ -2,6 +2,7 @@
 title = 'First Blog'
 date = 2024-02-08T19:22:51+03:00
 description = 'This is my First Blog in my Website :DD'
+keywords = ["art", "pixelart", "tech", "linux", "foss", "indieweb", "indie", "games", "videogames"]
 draft = true
 +++
 

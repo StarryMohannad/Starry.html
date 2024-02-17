@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "micro-machina";
+    src: url("/font.ttf") format("truetype");
+}
+
+body {
+    font-family: monospace;
+    background: black;
+    color: red;
+
+    padding: .75rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}

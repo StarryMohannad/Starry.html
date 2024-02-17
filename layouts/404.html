@@ -2,12 +2,20 @@
 
   <head>
     <title>uhhhhhhhh oh....</title>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="{{ .Site.Params.author  }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="{{ .Site.BaseURL }}"/>
+    <link rel="icon" href="/imgs/favicon.svg" type="image/svg" />
     {{ hugo.Generator }}
+
+    <link rel="stylesheet" href="/styles/404.css" type="text/css" media="screen" />
   </head>
 
   <body>
     <h1>Page doesn't exist</h1>
-    <a href="/">go back</a>
+    <a href="/">go back to the homepage</a>
   </body>
 
 </html>

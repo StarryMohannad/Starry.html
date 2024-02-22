@@ -126,10 +126,6 @@ nav:nth-child(2) > li:nth-child(1) {
     margin-left: .5rem;
 }
 
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, div.logo:hover {
-    cursor: url("/imgs/cursors/text.png"), default !important;
-}
-
 a {
     color: var(--color2);
     text-decoration: none;
@@ -169,4 +165,8 @@ footer {
 
     text-align: center;
     color: var(--color14);
+}
+
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, li:hover, div.logo:hover {
+    cursor: url("/imgs/cursors/text.png"), default !important;
 }

@@ -11,7 +11,7 @@ enableRobotsTXT = true
     [params.contact]
         email   = 'mohannadgamer047@gmail.com'
     [params.social]
-        bluesky = "https://bsky.app/profile/starrymohannad.bsky.social"
+        bluesky = "https://bsky.app/profile/starrymohannad.neocities.org"
         github  = "https://github.com/StarryMohannad"
         steam   = "https://steamcommunity.com/id/StarryMohannad"
         twitter = "https://twitter.com/StarryMohannad2"
@@ -19,3 +19,7 @@ enableRobotsTXT = true
 
 [security]
   enableInlineShortcodes = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+

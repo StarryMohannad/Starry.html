@@ -41,6 +41,7 @@ h2 {
 }
 
 p {
+    font-size: .95rem;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -148,7 +149,7 @@ a:hover {
 
 main {
     width: 80%;
-    height: 60vh;
+    height: 585px;
     background: #252428;
     margin-right: .25rem;
     padding: .5rem
@@ -200,3 +201,42 @@ span:hover {
 	height: 591.5px;
   }
 }
+
+@media only screen and (max-width: 1716px) {
+    h1 {
+		font-size: 1.8rem;
+    }
+	div.middle-side h2 {
+    	font-size: 1rem;
+	}
+}
+
+
+@media only screen and (max-width: 1000px) {
+  div.logo {
+      font-size: .5rem;
+  }
+  body {
+	height: 100%;
+	font-size: .89rem;
+  }
+  h1 {
+	font-size: 2rem;
+  }
+
+  h2 {
+	font-size: 1.15rem;
+  }
+
+  div.post-details > p {
+	font-size: .8rem;
+  }
+
+  body>div {
+	width: 95vw;
+  }
+  main {
+	height: 591.5px;
+  }
+}
+

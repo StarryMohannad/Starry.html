@@ -113,10 +113,12 @@ nav {
 .logo {
     font-family: monospace;
     white-space: pre-wrap;
-    font-size: 13px;
+    font-size: .75rem;
     margin-bottom: .5rem;
     color: var(--color8);
 }
+
+
 
 div.middle-side > ul {
     margin-top: .5rem;
@@ -167,6 +169,34 @@ footer {
     color: var(--color14);
 }
 
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, li:hover, div.logo:hover {
+span:hover {
     cursor: url("/imgs/cursors/text.png"), default !important;
+}
+
+@media only screen and (aspect-ratio: 4/3) {
+  div.logo {
+      font-size: .5rem;
+  }
+  body {
+	height: 100%;
+	font-size: .89rem;
+  }
+  h1 {
+	font-size: 2rem;
+  }
+
+  h2 {
+	font-size: 1.15rem;
+  }
+
+  div.post-details > p {
+	font-size: .8rem;
+  }
+
+  body>div {
+	width: 95vw;
+  }
+  main {
+	height: 591.5px;
+  }
 }
